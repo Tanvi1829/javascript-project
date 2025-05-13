@@ -29,6 +29,49 @@ console.log(typeof stringNumber);
 */
 
 
+// **************************************** Operations ******************************************** //
+
+let value = 29
+let negValue = -value
+console.log(negValue);
+
+/*
+    Important Notes: 
+        ArithMatic Operations: 
+            - addition
+            - substraction
+            - multiplication
+            - division 
+            - reminder 
+            - power 
+
+    link to study
+        - https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+*/
+
+let str1 = "Hello"
+let str2 = "Tanvi"
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
+
+let num1, num2, num3 
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+gameCounter++
+console.log(gameCounter);
+
+
+
+
+
+
+
 
 
 

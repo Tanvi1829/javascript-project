@@ -51,3 +51,51 @@ const myFunction = function(){
 
 console.log(typeof cars);
 
+
+
+
+// ********************************************** //
+
+// Stack & Heap Memory
+
+/* 
+    Important Notes:
+        - Two Types of Memory: 
+            - Stack Memory
+            - Heap Memory
+
+        - stack memory:
+            - primitive datatype
+            - generate a copy 
+
+        - heap memory:
+            - non-primitive datatype 
+            - not generate copy 
+            - generate original
+
+*/
+
+let firstName = "Tanvi"
+
+let lastName = firstName
+lastName = "Mapuskar"
+
+console.log(firstName);
+console.log(lastName);
+
+let userOne = {
+    email: "mapuskartanvi18@gmail.com",
+    upi: "tanvi@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "mapuskartanvi29@gmail.com"
+
+console.log(userOne);
+console.log(userTwo);
+
+
+
+
+
